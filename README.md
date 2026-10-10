@@ -32,7 +32,7 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/inst
 
 ## WorkBuddy
 
-下载 [Skill 导入包](downloads/ai-creator-topics.zip)，在 WorkBuddy「专家・技能・连接器 → 技能 → 添加技能」中上传。这个 ZIP 的根目录直接包含 `SKILL.md`。WorkBuddy 的[官方说明](https://cloud.tencent.com/document/product/1831/134432)支持导入本地 Skill 包；[自动化说明](https://cloud.tencent.com/document/product/1831/134399)支持在定时任务中选择 Skill 和结果推送方式。这里提供的是客户端导入包，尚未提交到 WorkBuddy 技能市场。
+下载 [WorkBuddy 导入包](downloads/ai-creator-topics-workbuddy.zip)，在 WorkBuddy「专家・技能・连接器 → 技能 → 添加技能」中上传。这个 ZIP 的根目录直接包含 `SKILL.md`，并按[WorkBuddy 官方格式](https://open.workbuddy.cn/docs/skill)补齐了中英文描述、版本和作者；[源文件在这里](platforms/workbuddy/ai-creator-topics/SKILL.md)。WorkBuddy 的[客户端说明](https://cloud.tencent.com/document/product/1831/134432)支持导入本地 Skill 包；[自动化说明](https://cloud.tencent.com/document/product/1831/134399)支持在定时任务中选择 Skill 和结果推送方式。这里提供的是客户端导入包，尚未提交到 WorkBuddy 技能市场。
 
 ## 每日推送
 
