@@ -26,13 +26,21 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/.system/skill-installer/scripts/inst
 
 ## 豆包工作
 
-在豆包工作的「技能・连接器・伙伴」中，使用新建或导入技能的入口，导入 [Skill 包](downloads/ai-creator-topics.zip) 或 `skills/ai-creator-topics/SKILL.md`。也可以先把 [SKILL.md](skills/ai-creator-topics/SKILL.md) 链接发给豆包工作，让它按文件内容执行；这种方式是否会保存为可重复调用的技能，以当前客户端显示为准。豆包工作支持自建、导入本地技能文件和定时任务，具体入口与权限可能因账号及客户端而异。参见[豆包工作官方介绍](https://www.feishu.cn/content/article/7677519271848610746)。
+先在豆包工作对话中说：
+
+> 请安装这个 Skill，保存为以后能调用的技能，并确认它出现在已安装技能中：https://github.com/Lin-QuQ/codex-skills/tree/main/skills/ai-creator-topics
+
+豆包工作[官方介绍](https://www.feishu.cn/content/article/7677519271848610746)列出了对话式安装、导入本地技能文件和定时任务。若当前客户端无法从链接安装，就到「技能・连接器・伙伴」中导入 [通用 Skill 包](downloads/ai-creator-topics.zip) 或 `skills/ai-creator-topics/SKILL.md`。只读取链接并做了一次选题，不等于已经安装；请以技能列表或明确的安装成功状态为准。
 
 如果你使用的是普通豆包聊天入口，找不到技能导入入口时，可以把 `SKILL.md` 的内容作为提示词发给它做一次性选题。这样不等于已经安装 Skill，也不会自动产生每日推送。
 
 ## WorkBuddy
 
-下载 [WorkBuddy 导入包](downloads/ai-creator-topics-workbuddy.zip)，在 WorkBuddy「专家・技能・连接器 → 技能 → 添加技能」中上传。这个 ZIP 的根目录直接包含 `SKILL.md`，并按[WorkBuddy 官方格式](https://open.workbuddy.cn/docs/skill)补齐了中英文描述、版本和作者；[源文件在这里](platforms/workbuddy/ai-creator-topics/SKILL.md)。WorkBuddy 的[客户端说明](https://cloud.tencent.com/document/product/1831/134432)支持导入本地 Skill 包；[自动化说明](https://cloud.tencent.com/document/product/1831/134399)支持在定时任务中选择 Skill 和结果推送方式。这里提供的是客户端导入包，尚未提交到 WorkBuddy 技能市场。
+先在 WorkBuddy 对话中说：
+
+> 请安装这个 Skill，保存为以后能调用的技能，并确认它出现在已安装技能中：https://github.com/Lin-QuQ/codex-skills/tree/main/platforms/workbuddy/ai-creator-topics
+
+WorkBuddy 的[客户端说明](https://cloud.tencent.com/document/product/1831/134432)支持用自然语言查找技能或导入本地包；从任意 GitHub 链接直接安装仍取决于客户端能否读取和保存该仓库。若链接安装没有成功，就下载 [WorkBuddy 导入包](downloads/ai-creator-topics-workbuddy.zip)，在「专家・技能・连接器 → 技能 → 添加技能」中上传。ZIP 根目录直接包含 `SKILL.md`，并按[WorkBuddy 官方格式](https://open.workbuddy.cn/docs/skill)补齐中英文描述、版本和作者。这里提供的是客户端导入包，尚未提交到 WorkBuddy 技能市场。[自动化说明](https://cloud.tencent.com/document/product/1831/134399)介绍了在定时任务中选择 Skill 和结果推送方式。
 
 ## 每日推送
 
