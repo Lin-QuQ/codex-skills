@@ -1,0 +1,3 @@
+interface:
+  display_name: "AI 博主选题"
+  short_description: "结合账号风格或普通人的 AI 新用途，寻找并核实值得拍的选题"
